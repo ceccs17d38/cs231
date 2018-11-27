@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 2
+//program name: Selection sort
+
 #include <stdio.h>
 
 int selectionSort(int array[], int size) {
