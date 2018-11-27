@@ -1,3 +1,9 @@
+//Name: Nirmal K George Mathew
+//Roll no.: 38
+//Program no.: 1
+//program name: Sequential search
+
+
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
