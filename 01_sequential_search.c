@@ -1,6 +1,6 @@
-//Name: Nirmal K George Mathew
-//Roll no.: 38
-//Program no.: 1
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 1
 //program name: Sequential search
 
 
