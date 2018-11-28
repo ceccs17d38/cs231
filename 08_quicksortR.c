@@ -56,3 +56,16 @@ int main()
   return 0;
 }
 
+
+OUTPUT:
+
+
+	Enter the size of the array
+	4
+	Enter the elements to be sorted
+	4
+	7
+	4
+	5
+	Sorted array
+	4 4 5 7
