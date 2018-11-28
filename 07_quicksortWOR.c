@@ -2,7 +2,7 @@
 //Name        : Nirmal K George Mathew
 //Roll no.    : 38
 //Program no. : 7
-//program name: Quick sort
+//program name: Quick sort without recursion
 
 #include <stdio.h>
 
