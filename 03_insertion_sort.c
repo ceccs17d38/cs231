@@ -33,3 +33,18 @@ void main() {
 		printf("%d\n", array[i]);
 	}
 }
+
+
+OUTPUT:
+
+	Enter size of the array : 4
+	Enter array
+	5
+	7
+	2
+	6
+	Sorted array
+	2
+	5
+	6
+	7
