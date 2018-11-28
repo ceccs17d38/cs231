@@ -59,3 +59,20 @@ int main() {
 	quickSortIterative(array, 0, size-1);
 	printArray(array, size);
 }
+
+
+
+OUTPUT:
+
+
+	Enter size of the array : 4
+	Enter array elements
+	3
+	6
+	2
+	4
+	Sorted Array
+	2
+	3
+	4
+	6
