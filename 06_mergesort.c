@@ -90,3 +90,16 @@ void mergeSort(int list[],int low,int mid,int high)
         list[k] = temp[k];
     }
 }
+
+
+OUTPUT:
+
+
+	Enter total number of elements:4
+	Enter the elements:
+	4
+	7
+	3
+	6
+	After merge sort:
+	3   4   6   7 
