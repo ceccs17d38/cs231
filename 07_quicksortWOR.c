@@ -1,3 +1,9 @@
+
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 7
+//program name: Quick sort
+
 #include <stdio.h>
 
 void swap(int *a, int *b) {
