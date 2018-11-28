@@ -1,3 +1,9 @@
+
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 8
+//program name: Quicksort using recursion
+
 #include<stdio.h>
 void quicksort(int *arr, int low, int high)
 {
