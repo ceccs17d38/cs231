@@ -1,3 +1,9 @@
+
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 9
+//program name: Heap sort
+
 #include<stdio.h>
 void main()
 {
