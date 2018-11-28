@@ -1,3 +1,9 @@
+
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 6
+//program name: Mergesort with recursion
+
 #include <stdio.h>
 void mergeSort(int [], int, int, int);
 void partition(int [],int, int);
