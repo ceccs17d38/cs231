@@ -1,3 +1,9 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 26
+//program name: Queue using Array
+
+
 #include <stdio.h>
  
 #define MAX 50
@@ -75,3 +81,8 @@ display()
         printf("\n");
     }
 }
+
+
+OUTPUT:
+
+
