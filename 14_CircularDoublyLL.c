@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 14
+//program name: Circular Doubly Linkedlist
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -150,3 +155,77 @@ void main()
         	}
     	}while(c==1 || c==2 || c==3 || c==4 || c==5 || c==6);
 }
+
+
+OUTPUT:
+
+
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:1
+Enter data: 4
+
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:2
+Enter data: 6
+
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:3
+Enter key: 5
+
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:6
+4    6
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:4
+Enter key: 4
+
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:5
+Enter key: 5
+
+Element not found...
+CHOOSE
+1.Insertion(begining)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion
+5.Search
+6.Display
+Enter choice:6
+6
