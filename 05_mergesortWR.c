@@ -69,3 +69,19 @@ int main()
 	
 	return 0;
 }
+
+
+
+OUTPUT:
+
+
+	Enter the number of elements : 4
+	Enter element 1 : 5
+	Enter element 2 : 9
+	Enter element 3 : 3
+	Enter element 4 : 2
+	Unsorted list is : 5 9 3 2 
+	Elements are : 5 9 2 3 
+	Elements are : 2 3 5 9 Sorted list is :
+	2 3 5 9 
+
