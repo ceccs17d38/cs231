@@ -64,3 +64,21 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+
+
+OUTPUT:
+
+
+	Enter number of elements : 4
+	Enter elements
+	5
+	7
+	3
+	6
+	Sorted array
+	3
+	5
+	6
+	7
+	Enter element to search : 5
+	Element found at position 2
