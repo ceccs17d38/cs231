@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 21
+//program name: Arithematic representation
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -56,7 +61,7 @@ int main() {
 	HEADER->next = NULL;
 
   printf("Enter arithmatic expression : ");
-  scanf("%s", &infix);
+  scanf("%s", infix);
   for (i=0; infix[i]!='\0'; i++) {
     insertNodeEnd(infix[i]);
   }
@@ -67,3 +72,10 @@ int main() {
 	
 	return (0);
 }
+
+
+OUTPUT:
+
+
+Enter arithmatic expression : A+B+C
+Entered experssion : A+B+C
