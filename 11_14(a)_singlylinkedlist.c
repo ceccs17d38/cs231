@@ -1,6 +1,6 @@
 //Name        : Nirmal K George Mathew
 //Roll no.    : 38
-//Program no. : 10
+//Program no. : 11_14(a)
 //program name: Singly linkedlist(All operations)
 
 #include <stdio.h>
