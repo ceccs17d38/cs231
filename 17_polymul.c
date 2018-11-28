@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 17
+//program name: Polynomial multiplication
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -129,3 +134,28 @@ void main()
     		}
     		printf("0\n");
 }
+
+
+OUTPUT:
+
+
+Polynomial 1
+Enter coefficient: 4
+Enter exponent: 3
+1. Add elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 3
+Enter exponent: 3
+1. Add elements
+2. Continue
+Enter choice: 2
+polynomial 2
+Enter coefficient: 0
+Enter exponent: 0
+1. Add elements
+2. Continue
+Enter choice: 2
+F(a) = 4X^3 + 3X^3 
+F(b) = 0X^0 
+F(r) = 0X^3 
