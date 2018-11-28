@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 3
+//program name: Insertion sort
+
 #include <stdio.h>
 
 int insertionSort(int array[], int size) {
