@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 24
+//program name: Infix evaluation
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -83,3 +88,10 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+
+
+OUTPUT:
+
+
+Enter the infix expression : (1+3)^2
+Final result : 16
