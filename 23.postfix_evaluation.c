@@ -1,3 +1,7 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 1
+//program name: Postfix evaluation
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,3 +52,9 @@ int main() {
   }
   printf("%d\n", stack[top]);
 }
+
+
+OUTPUT:
+
+Enter the postfix expression : 123+*
+5
