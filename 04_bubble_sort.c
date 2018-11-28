@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 4
+//program name: Bubble sort
+
 #include <stdio.h>
 
 int bubbleSort(int array[], int size) {
