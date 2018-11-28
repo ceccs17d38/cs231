@@ -1,7 +1,7 @@
 //Name        : Nirmal K George Mathew
 //Roll no.    : 38
 //Program no. : 5
-//program name: Mergesort with Recursion
+//program name: Mergesort without Recursion
 
 #include <stdio.h>
 
