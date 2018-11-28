@@ -1,6 +1,6 @@
 //Name        : Nirmal K George Mathew
 //Roll no.    : 38
-//Program no. : 1
+//Program no. : 23
 //program name: Postfix evaluation
 
 #include <stdio.h>
