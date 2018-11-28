@@ -57,3 +57,14 @@ void main()
 }
 			
 
+OUTPUT:
+
+
+	Enter the no.of elements4
+
+	Enter the numbers:3
+	6
+	4
+	7
+	Heap array:7	6	4	3	
+	The sorted array is:3 	4 	6 	7 
