@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 16
+//program name: Polynomial addition
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -137,3 +142,40 @@ void main()
     	}
     	printf("0\n");
 }
+
+
+OUTPUT:
+
+
+Polynomial 1
+Enter coefficient: 3
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 2
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 0
+1. Add more elements
+2. Continue
+Enter choice: 2
+polynomial 2
+Enter coefficient: 4
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 8
+Enter exponent: 0
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+F(s) = F(a) + F(b)
+F(a) = 3X^3 + 4X^2 + 4X^0
+F(b) = 4X^3 + 8X^0 
+F(s) = 7X^3 + 4X^2 + 12X^0 
