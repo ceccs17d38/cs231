@@ -1,3 +1,8 @@
+//Name        : Nirmal K George Mathew
+//Roll no.    : 38
+//Program no. : 22
+//program name: infix to postfix conversion
+
 #include <stdio.h>
 
 int instackPriority(char symbol) {
@@ -60,3 +65,10 @@ int main () {
     printf("%c", stack[top--]);
   }
 }
+
+
+OUTPUT:
+
+
+Enter the infix expression : A+B*c
+ABc*+
