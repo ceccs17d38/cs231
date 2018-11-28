@@ -35,3 +35,18 @@ int main() {
 		printf("%d\n", array[i]);
 	}
 }
+
+
+OUTPUT:
+
+	Enter number of elements in the array : 4
+	Enter the array
+	2
+	4
+	1
+	3
+	Sorted array 
+	1
+	2
+	3
+	4
