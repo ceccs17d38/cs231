@@ -1,71 +1,71 @@
 
-//Name        : Nirmal K George Mathew
-//Roll no.    : 38
-//Program no. : 8
-//program name: Quicksort using recursion
+	//Name        : Nirmal K George Mathew
+	//Roll no.    : 38
+	//Program no. : 8
+	//program name: Quicksort using recursion
 
-#include<stdio.h>
-void quicksort(int *arr, int low, int high)
-{
-  int pivot, i, j, temp;
-  if(low < high) 
-  {
-    pivot = low; 
-    i = low;
-    j = high;
-    while(i < j) 
+	#include<stdio.h>
+	void quicksort(int *arr, int low, int high)
 	{
-      
-      while(arr[i] <= arr[pivot] && i <= high)
-        i++;     
-      while(arr[j] > arr[pivot] && j >= low)
-        j--;
-      if(i < j)
+	  int pivot, i, j, temp;
+	  if(low < high) 
 	  {
-        temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-      }
-    }
+	    pivot = low; 
+	    i = low;
+	    j = high;
+	    while(i < j) 
+		{
 
-    temp = arr[j];
-    arr[j] = arr[pivot];
-    arr[pivot] = temp;
-   
-    quicksort(arr, low, j-1);
-    quicksort(arr, j+1, high);
-  }
-}
+	      while(arr[i] <= arr[pivot] && i <= high)
+		i++;     
+	      while(arr[j] > arr[pivot] && j >= low)
+		j--;
+	      if(i < j)
+		  {
+		temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	      }
+	    }
 
-int main()
-{
-  int arr[20], n, i;
-  printf("Enter the size of the array\n");
-  scanf("%d", &n);
+	    temp = arr[j];
+	    arr[j] = arr[pivot];
+	    arr[pivot] = temp;
 
-  printf("Enter the elements to be sorted\n");
-  for(i = 0; i < n; i++)
-    scanf("%d", &arr[i]);
+	    quicksort(arr, low, j-1);
+	    quicksort(arr, j+1, high);
+	  }
+	}
 
-  quicksort(arr, 0, n-1);
+	int main()
+	{
+	  int arr[20], n, i;
+	  printf("Enter the size of the array\n");
+	  scanf("%d", &n);
 
-  printf("Sorted array\n");
-  for(i = 0; i < n; i++)
-    printf("%d ", arr[i]);
+	  printf("Enter the elements to be sorted\n");
+	  for(i = 0; i < n; i++)
+	    scanf("%d", &arr[i]);
 
-  return 0;
-}
+	  quicksort(arr, 0, n-1);
+
+	  printf("Sorted array\n");
+	  for(i = 0; i < n; i++)
+	    printf("%d ", arr[i]);
+
+	  return 0;
+	}
 
 
-OUTPUT:
+	OUTPUT:
 
 
-	Enter the size of the array
-	4
-	Enter the elements to be sorted
-	4
-	7
-	4
-	5
-	Sorted array
-	4 4 5 7
+		Enter the size of the array
+		4
+		Enter the elements to be sorted
+		4
+		7
+		4
+		5
+		Sorted array
+		4 4 5 7
