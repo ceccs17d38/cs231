@@ -1,70 +1,70 @@
 
-//Name        : Nirmal K George Mathew
-//Roll no.    : 38
-//Program no. : 9
-//program name: Heap sort
+	//Name        : Nirmal K George Mathew
+	//Roll no.    : 38
+	//Program no. : 9
+	//program name: Heap sort
 
-#include<stdio.h>
-void main()
-{
-	int heap[10],n,i,j,c,root,temp;
-	printf("\n Enter the no.of elements");
-	scanf("%d",&n);
-	printf("\n Enter the numbers:");
-	for(i=0;i<n;i++)
-		scanf("%d",&heap[i]);
-	for(i=1;i<n;i++)
+	#include<stdio.h>
+	void main()
 	{
-		c=i;
-		do
-		{
-			root=(c-1)/2;
-			if(heap[root]<heap[c])
-			{
-				temp=heap[root];
-				heap[root]=heap[c];
-				heap[c]=temp;
-			}
-			c=root;
-		}while(c!=0);
-	}
-	printf("Heap array:");
-	for(i=0;i<n;i++)
-		printf("%d\t",heap[i]);
-	for(j=n-1;j>=0;j--)
-	{
-		temp=heap[0];
-		heap[0]=heap[j];
-		heap[j]=temp;
-		root=0;
-		do
-		{
-			c=2*root+1;
-			if((heap[c]<heap[c+1])&&c<j-1)
-				c++;
-			if(heap[root]<heap[c]&&c<j)
-			{
-				temp=heap[root];
-				heap[root]=heap[c];
-				heap[c]=temp;
-			}
-			root=c;
-		}while(c<j);
-	}
-		printf("\n The sorted array is:");
+		int heap[10],n,i,j,c,root,temp;
+		printf("\n Enter the no.of elements");
+		scanf("%d",&n);
+		printf("\n Enter the numbers:");
 		for(i=0;i<n;i++)
-			printf("%d \t",heap[i]);
-}
-			
+			scanf("%d",&heap[i]);
+		for(i=1;i<n;i++)
+		{
+			c=i;
+			do
+			{
+				root=(c-1)/2;
+				if(heap[root]<heap[c])
+				{
+					temp=heap[root];
+					heap[root]=heap[c];
+					heap[c]=temp;
+				}
+				c=root;
+			}while(c!=0);
+		}
+		printf("Heap array:");
+		for(i=0;i<n;i++)
+			printf("%d\t",heap[i]);
+		for(j=n-1;j>=0;j--)
+		{
+			temp=heap[0];
+			heap[0]=heap[j];
+			heap[j]=temp;
+			root=0;
+			do
+			{
+				c=2*root+1;
+				if((heap[c]<heap[c+1])&&c<j-1)
+					c++;
+				if(heap[root]<heap[c]&&c<j)
+				{
+					temp=heap[root];
+					heap[root]=heap[c];
+					heap[c]=temp;
+				}
+				root=c;
+			}while(c<j);
+		}
+			printf("\n The sorted array is:");
+			for(i=0;i<n;i++)
+				printf("%d \t",heap[i]);
+	}
 
-OUTPUT:
+
+	OUTPUT:
 
 
-	Enter the no.of elements4
+		Enter the no.of elements4
 
-	Enter the numbers:3
-	6
-	4
-	7
-	Heap array:7	6	4	3	
-	The sorted array is:3 	4 	6 	7 
+		Enter the numbers:3
+		6
+		4
+		7
+		Heap array:7	6	4	3	
+		The sorted array is:3 	4 	6 	7 
